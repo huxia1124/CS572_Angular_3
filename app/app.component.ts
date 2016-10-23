@@ -74,7 +74,7 @@ import { OnInit }         from '@angular/core'
 })
 
 export class AppComponent implements OnInit {
-  title = "CS472 Angular / Lab 2";
+  title = "CS472 Angular / Lab 3";
   selectedProduct : Product;
   products : Product[];
 
