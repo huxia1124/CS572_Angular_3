@@ -25,8 +25,7 @@ import { OnInit }         from '@angular/core'
     background-color: #CFD8DC !important;
     color: white;
   }
-  .products {
-    margin: 0 0 2em 0;
+  .products {    margin: 0 0 2em 0;
     list-style-type: none;
     padding: 0;
     width: 15em;
@@ -74,7 +73,11 @@ import { OnInit }         from '@angular/core'
 })
 
 export class AppComponent implements OnInit {
+<<<<<<< HEAD
   title = "CS472 Angular / Lab 3";
+=======
+  title = "CS572 Angular / Lab 2";
+>>>>>>> e5f52d641c32955288881604ce5ea697ae2e708a
   selectedProduct : Product;
   products : Product[];
 
